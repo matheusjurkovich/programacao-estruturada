@@ -1,2 +1,2 @@
 # Estudos de Programção Estruturada
-Feitos em aula na UNIP
+Exercicios feitos em aula na UNIP
