@@ -29,8 +29,10 @@ while choice != 4:
                 encontrado = True
                 break
         if encontrado == True:
-            print(item)
+            print(f"\nCodigo do livro: {item['registro']}\nAutor do livro: {item['autor']}\nTitulo do Livro: {item['titulo']}\nEditora: {item['editora']}\nAno de publicação: {item['ano']}\nQuantidade de unidades: {item['quantidade']}\nValor do livro: {item['valor']}\n")
         else:
-            print("Livro não encontrado")
+            print("\nLivro não encontrado\n")
     elif choice == 3:
-        print(estoque)
+        print("Estoque:")
+        for item in estoque:
+            print(f"Autor do livro: {item['autor']}\nTitulo do Livro: {item['titulo']}\nEditora: {item['editora']}\nAno de publicação: {item['ano']}\nQuantidade de unidades: {item['quantidade']}\nValor do livro: {item['valor']}\n")
